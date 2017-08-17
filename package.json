@@ -1,0 +1,24 @@
+{
+  "name": "youtube-player",
+  "version": "1.0.0",
+  "description": "Youtube video page test example",
+  "scripts": {
+    "driver:update": "webdriver-manager update",
+    "driver:start": "webdriver-manager start",
+    "test": "protractor"
+  },
+  "keywords": ["protractor", "automation", "testing"],
+  "author": "Chien-Ming Lai <lcmtwn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "app-module-path": "^2.2.0",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.4.1",
+    "jasmine-spec-reporter": "^4.2.0",
+    "protractor": "^5.1.2",
+    "protractor-screenshot-plugin": "^0.0.1"
+  }
+}
